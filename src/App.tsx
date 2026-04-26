@@ -53,7 +53,7 @@ function App() {
 
       {/* Bottom Row */}
       <div className="flex items-end justify-between px-8 pb-10 relative z-10">
-        <div className="text-white/45 text-xs leading-relaxed max-w-[280px] space-y-1">
+        <div className="text-xs leading-relaxed max-w-[280px] space-y-1">
           <p>It helps you imagine, plan, and refine spaces through natural conversations.</p>
           <p>From choosing colors and layouts to suggesting furniture and décor, it adapts to your taste.</p>
         </div>
