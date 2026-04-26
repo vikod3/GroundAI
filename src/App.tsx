@@ -18,12 +18,12 @@ function App() {
           <Sparkles size={18} className="text-white" strokeWidth={1.5} />
           <span className="text-white text-base font-medium tracking-wide">GroundAI</span>
         </div>
-        <div className="flex items-center gap-8">
-          <a href="#" className="text-white/70 text-sm hover:text-white transition-colors">Product</a>
-          <a href="#" className="text-white/70 text-sm hover:text-white transition-colors">Platform</a>
-          <a href="#" className="text-white/70 text-sm hover:text-white transition-colors">Customers</a>
-          <a href="#" className="text-white/70 text-sm hover:text-white transition-colors">Company</a>
-          <button className="bg-white text-black text-sm font-medium px-5 py-2 rounded-full hover:bg-white/90 transition-colors">
+        <div className="flex items-center gap-6 bg-[#2a2a2a]/40 backdrop-blur-xl border border-white/10 rounded-full pl-6 pr-1.5 py-1.5">
+          <a href="#" className="text-white/90 text-[13px] font-medium tracking-wide hover:text-white transition-colors">Product</a>
+          <a href="#" className="text-white/90 text-[13px] font-medium tracking-wide hover:text-white transition-colors">Platfrom</a>
+          <a href="#" className="text-white/90 text-[13px] font-medium tracking-wide hover:text-white transition-colors">Customers</a>
+          <a href="#" className="text-white/90 text-[13px] font-medium tracking-wide hover:text-white transition-colors">Company</a>
+          <button className="bg-white text-black text-[13px] font-semibold px-6 py-2 rounded-full hover:bg-white/90 transition-colors">
             Login
           </button>
         </div>
@@ -36,7 +36,7 @@ function App() {
             <span className="font-semibold block">Meet GroundAI.</span>
             <span className="block">
               <em
-                className="text-stone-200 font-light not-italic"
+                className="font-light not-italic"
                 style={{ fontFamily: 'Georgia, "Times New Roman", serif', fontStyle: 'italic' }}
               >
                 Redefine space
@@ -59,15 +59,17 @@ function App() {
         </div>
 
         <div className="flex flex-col gap-2 items-end">
-          <button className="bg-white/[0.08] border border-white/[0.12] text-white/90 text-xs font-medium px-5 py-2.5 rounded-full hover:bg-white/[0.13] transition-colors">
+          <button className="bg-white/5 border border-white/30 text-white/90 text-[13px] font-medium px-4 py-2 rounded-[8px] hover:bg-white/10 transition-colors backdrop-blur-sm">
             Solutions for complex spaces
           </button>
-          <button className="bg-white/[0.08] border border-white/[0.12] text-white/90 text-xs font-medium px-5 py-2.5 rounded-full hover:bg-white/[0.13] transition-colors flex items-center gap-2">
-            <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/15">
-              <ArrowUpRight size={11} className="text-white" />
-            </span>
-            Conversational &amp; Action
-          </button>
+          <div className="flex items-center gap-2">
+            <button className="bg-white/5 border border-white/30 text-white px-3 py-2 rounded-[8px] hover:bg-white/10 transition-colors backdrop-blur-sm flex items-center justify-center">
+              <ArrowUpRight size={18} strokeWidth={1.5} />
+            </button>
+            <button className="bg-white/5 border border-white/30 text-white/90 text-[13px] font-medium px-4 py-2 rounded-[8px] hover:bg-white/10 transition-colors backdrop-blur-sm">
+              Conversational &amp; Action
+            </button>
+          </div>
         </div>
       </div>
     </div>
